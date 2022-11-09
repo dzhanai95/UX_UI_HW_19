@@ -3,6 +3,7 @@
     width: 150px;
     text-align: center;
     background-color: transparent;
+    font-family: 'Poppins', sans-serif;
 }
 .nav {
     display: flex;
@@ -31,13 +32,97 @@
     float: left;
     margin-right:10px;
 }
-.content {
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size:3vw;
+    text-align: left;
+}
+.content p {
     width: 1000px;
     margin:0 auto;
-    text-indent: 50px;
-    font-size: 20px;
-    background-color:#F2D2B6;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    
 
+}
+.button {
+    margin-right:5px;
+    align-items: center;
+    appearance: button;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: medium;
+    border-color:#D9ADB5;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    padding: 20px 60px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:active {
+    background-color: #006AE8;
+  }
+  
+  .button:hover {
+    background-color: #D9ADB5;
+  }
+
+.button2 {
+    margin-right:5px;
+    align-items: center;
+    appearance: button;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: medium;
+    border-color:#D9ADB5;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 20px 60px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button2:active {
+    background-color: #006AE8;
+  }
+  
+  .button2:hover {
+    background-color: #D9C4BF;
+  }    
+
+
+.buttons {
+    display: flex;
+    align-items: left;
 }
 .footer {
     background-color: #373738;
@@ -48,21 +133,141 @@
 <!-- My UX Skills section coded using CSS flex-->
 .flexContainer {
     display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userDesign {
     width: 33%;
-    padding: 2%;
-    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.userEmphathy {
+    width: 33%;
+    font-family: 'Poppins', sans-serif;
+}
+.language {
+    width: 33%;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+#p1 {
+    border: 1px solid #D9ADB5;
+}
+#p2 {
+    border: 1px solid #D9ADB5;
+}
+#p3 {
+    border: 1px solid #D9ADB5;
 }
 
 <!--My Work Section Constructed using CSS Grid-->
+
 .workGrid {
     margin: 0px 5%;
     display: grid;
+    padding: 500px;
     grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 1ft 1fr 1fr;
+    grid-template-columns: 2fr auto;
     grid-template-areas:
     "Wandr Hap* Habitate for Humanity"
     ;
 }
+h6, h7, h8 {
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;  
+}
+.wandr img {
+    float: left;
+    margin-right: 2px;
+    height: 410px;
+    width:fit-content;
+
+}
+.button1 {
+    margin-right:5px;
+    align-items: center;
+    appearance: button;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: medium;
+    border-color:#D9ADB5;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 20px 60px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button1:active {
+    background-color: #006AE8;
+  }
+  
+  .button1:hover {
+    background-color: #D9C4BF;
+  } 
+.description1 p {
+    width: 1000px;
+    margin:0 auto;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.hap img {
+    float: left;
+    margin-right: 2px;
+    height: 410px;
+    width:fit-content;
+}
+.description2 p {
+    width: 1000px;
+    margin:0 auto;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.habitat img {
+    float: left;
+    margin-right: 2px;
+    height: 410px;
+     width:fit-content;
+}
+.description3 p {
+    width: 1000px;
+    margin:0 auto;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
 @media only screen and (max-width:600) {
     .workGrid {
         grid-template-rows: 300px 300px 300px
