@@ -35,7 +35,7 @@
 .name {
     font-family: 'Poppins', sans-serif;
     font-size:3vw;
-    text-align: left;
+    text-align: center;
 }
 .content p {
     width: 1000px;
@@ -122,13 +122,13 @@
 
 .buttons {
     display: flex;
-    align-items: left;
+    align-items: center;
 }
 .footer {
-    background-color: #373738;
-    display: inline-block;
+    display: flex;
     padding: 1%;
     vertical-align: top
+    
 }
 <!-- My UX Skills section coded using CSS flex-->
 .flexContainer {
