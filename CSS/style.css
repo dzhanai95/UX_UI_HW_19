@@ -123,6 +123,8 @@
 .buttons {
     display: flex;
     align-items: center;
+    padding-left: 300;
+    padding-top: 30;
 }
 .footer {
     display: flex;
@@ -131,6 +133,9 @@
     
 }
 <!-- My UX Skills section coded using CSS flex-->
+.mySkills {
+    display: flex;
+}
 .flexContainer {
     display: flex;
     flex-direction: row;
@@ -178,6 +183,7 @@ h4 {
 
 <!--My Work Section Constructed using CSS Grid-->
 
+
 .workGrid {
     margin: 0px 5%;
     display: grid;
@@ -190,7 +196,7 @@ h4 {
 }
 h6, h7, h8 {
     font-family: 'Poppins', sans-serif;
-    font-size:30px;  
+    font-size:30px;
 }
 .wandr img {
     float: left;
@@ -258,8 +264,8 @@ h6, h7, h8 {
 .habitat img {
     float: left;
     margin-right: 2px;
-    height: 410px;
-     width:fit-content;
+    height: 400px;
+    width:fit-content;
 }
 .description3 p {
     width: 1000px;
