@@ -273,6 +273,7 @@ h6, h7, h8 {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+}
 
 @media only screen and (max-width:600) {
     .workGrid {
